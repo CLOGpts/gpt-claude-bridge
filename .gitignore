@@ -1,0 +1,79 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+*.test.js
+*.spec.js
+
+# Production
+dist/
+dist-ssr/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+
+# Archive & Debug
+_archive/
+browser.log
+simple-logger.cjs
+src/debug/
+
+# Temporary files
+*.tmp
+*.temp
+*.backup
+*.bak
+*.old
+App.tsx.backup-*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+Celerya_Cyber_Ateco/test*.py
+Celerya_Cyber_Ateco/test*.html
+Celerya_Cyber_Ateco/*_old.py
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+Database/comunicazioni/comunicazioni.txt
+
+# OS files
+Thumbs.db
+desktop.ini
